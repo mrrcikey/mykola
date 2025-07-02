@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memories - Clean Aesthetic</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+      font-family: 'Georgia', serif;
+    }
+
+    .header {
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 1.8em;
+      letter-spacing: 1px;
+      font-weight: bold;
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      gap: 40px;
+      position: relative;
+    }
+
+    .section:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .image {
+      width: 300px;
+      height: auto;
+      box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+      transform: rotate(-5deg);
+      transition: transform 0.3s ease;
+      border-radius: 12px;
+    }
+
+    .section:nth-child(even) .image {
+      transform: rotate(5deg);
+    }
+
+    .image:hover {
+      transform: rotate(0deg) scale(1.05);
+    }
+
+    .text {
+      max-width: 400px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 16px 16px 40px rgba(0,0,0,0.7);
+
+    }
+
+    .text p {
+      line-height: 1.6;
+    }
+
+    .decor-left, .decor-right {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 120px;
+      width: 2px;
+      background-color: #ccc;
+      opacity: 0.5;
+    }
+
+    .decor-left {
+      left: 10px;
+    }
+
+    .decor-right {
+      right: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      color: #666;
+      font-size: 0.9em;
+    }
+
+    /* Responsivo para celular */
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column !important;
+        padding: 40px 15px;
+        gap: 20px;
+      }
+
+      .image {
+        width: 90%;
+        max-width: 300px;
+        transform: none !important;
+      }
+
+      .text {
+        width: 100%;
+        max-width: 90%;
+      }
+
+      .decor-left, .decor-right {
+        display: none;
+      }
+
+      .header {
+        font-size: 1.5em;
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    Olemme minä ja sinä kaikissa universumeissa.
+  </div>
+
+  <div class="section">
+    <div class="decor-left"></div>
+    <img src="https://i.pinimg.com/736x/05/c8/89/05c889dde670396d71af27513b28edd4.jpg" class="image" alt="Memory 1">
+    <div class="text">
+      <p>Nunca pensei que eu fosse chamar alguém que está tão longe de mim de "melhor amigo", mas aconteceu, e sou muuito feliz por isso. Sou muito feliz por ter te conhecido.</p>
+    </div>
+    <div class="decor-right"></div>
+  </div>
+
+  <div class="section">
+    <div class="decor-left"></div>
+    <img src="https://i.pinimg.com/736x/3f/7a/87/3f7a87e4edeaab25ba5f28630407de01.jpg" class="image" alt="Memory 2">
+    <div class="text">
+      <p>As vezes eu penso umas brisa meio doida, talvez só faça sentido na minha cabeça mas eu sempre gostei muito de coisas que podem ser relacionadas ao Yin Yang, e acho que eu e você também podemos estar relacionados a ele de certa forma, como o Atsushi e o Akutagawa. Você é todo alegre saltitante pitoco e eu sou bem o contrário KKKKKK sou bem mongo às vezes, mas não tanto assim. Você é meu o sol e espero ser sua lua</p>
+    </div>
+    <div class="decor-right"></div>
+  </div>
+
+  <div class="section">
+    <div class="decor-left"></div>
+    <img src="https://i.pinimg.com/736x/27/2b/fc/272bfc6b763c64775f83c27c63b7e30a.jpg" class="image" alt="Memory 3">
+    <div class="text">
+      <p>Você virou alguém que não seria fácil de esquecer, tenho muitas memórias boas contigo. Se caso a gente pare de se falar e no futuro alguém perguntasse quem foi minha pessoa favorita, não pensaria duas vezes em dizer o seu nome.</p>
+    </div>
+    <div class="decor-right"></div>
+  </div>
+
+  <div class="section">
+    <div class="decor-left"></div>
+    <img src="https://i.pinimg.com/736x/6f/de/a2/6fdea20e40637189b384b576771893f9.jpg" class="image" alt="Memory 4">
+    <div class="text">
+      <p>Eu já te dediquei muitas coisas KKKK, meu shipp favorito de BSD, o meu fa no geral que é Sherliam, uma das músicas de uma das minhas bandas favoritas: Join Me In Death, te dediquei Satosugu, Shin Skk e Vanoé (não sei se você já dedicou um desses pra outra pessoa, mas se sim então foi mal) E não menos importante: Bernadette. Você vai me assombrar pra sempre quando eu ver ou ouvir essas coisas que te dediquei então NÃO se atreva. Isso é uma ameaça ok</p>
+    </div>
+    <div class="decor-right"></div>
+  </div>
+
+  <div class="section">
+    <div class="decor-left"></div>
+    <img src="https://i.pinimg.com/736x/65/bb/df/65bbdf66dba9af44bd84c455c74acdc4.jpg" class="image" alt="Memory 5">
+    <div class="text">
+      <p>Queria poder te abraçar hoje, você realmente parece ser muito confortável. Eu adoraria encostar em você, e eu detesto toque fisíco, DETESTO mas você seria uma bela de uma exceção. Eu te amo muito, me desculpa por sumir, demorar pra responder e as vezes pela minha grosseria. Feliz aniversário, você sempre foi muito importante pra mim e continuará sendo.</p>
+    </div>
+    <div class="decor-right"></div>
+  </div>
+
+  <!-- Texto em russo com fonte bonita e legível -->
+<div style="text-align: center; margin: 50px 20px; font-family: 'PT Serif', Georgia, serif; font-size: 1.5em; letter-spacing: 0.5px;">
+  <p>Ты моя свобода</p>
+</div>
+
+<!-- Link para importar a fonte PT Serif do Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+
+
+
+</body>
+</html>

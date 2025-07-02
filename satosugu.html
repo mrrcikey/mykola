@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Inspired Layout</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #111111;
+      color: #e0e0e0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+      background-color: #001f3f;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav button {
+      background-color: transparent;
+      color: white;
+      border: 1px solid #e0e0e0;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    nav button:hover, nav button.active {
+      background-color: #e0e0e0;
+      color: #001f3f;
+    }
+
+    .main-image img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      filter: grayscale(100%);
+    }
+
+    .text-section {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px 0;
+      padding: 0 20px;
+    }
+
+    .box {
+      background-color: #222;
+      border-radius: 8px;
+      padding: 20px;
+      flex: 1 1 250px;
+      max-width: 300px;
+      color: #e0e0e0;
+    }
+
+    .box.blue {
+      background-color: #001f3f;
+      color: #fff;
+    }
+
+    .links {
+      margin: 30px 0;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .link-button {
+      display: inline-block;
+      margin: 5px 10px;
+      padding: 10px 20px;
+      background-color: #e0e0e0;
+      color: #001f3f;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .link-button:hover {
+      background-color: #ffffff;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px 0;
+      padding: 0 20px;
+    }
+
+    .gallery img {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      filter: grayscale(100%);
+    }
+
+    .description {
+      max-width: 700px;
+      margin: 30px auto;
+      background-color: #001f3f;
+      padding: 20px;
+      border-radius: 8px;
+      color: white;
+      line-height: 1.6;
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 40px 0;
+      padding-bottom: 20px;
+    }
+
+    footer button {
+      background-color: transparent;
+      color: #e0e0e0;
+      border: 1px solid #e0e0e0;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    footer button.active, footer button:hover {
+      background-color: #e0e0e0;
+      color: #001f3f;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="text-section">
+    <div class="box">VERSE<br><br>Let the sky fall, let it rain down<br>My voice echoes like thunder</div>
+    <div class="box blue">VERSE<br><br>In the dark night, I still shine<br>My dreams louder than fears</div>
+    <div class="box">OUTRO<br><br>And as the lights fade, the story stays<br>Written in stars, lost in haze</div>
+  </div>
+
+  <div class="links">
+    <a href="#" class="link-button">Instagram</a>
+    <a href="#" class="link-button">Pinterest</a>
+    <a href="#" class="link-button">Go to Website</a>
+  </div>
+
+  <div class="gallery">
+    <img src="https://i.pinimg.com/736x/21/36/16/2136167dae55bdfec32b75cdae83f9b1.jpg" alt="Gallery Image 1">
+    <img src="https://i.pinimg.com/736x/9d/ad/ee/9dadeec69ab33b97404e564eed4ba53d.jpg" alt="Gallery Image 2">
+    <img src="https://i.pinimg.com/736x/5d/45/f0/5d45f01905f6a438144e4297b470d1e0.jpg" alt="Gallery Image 3">
+  </div>
+
+  <div class="description">
+    <h2>JEFES DEL SUDOESTE</h2>
+    <p>Esta canción representa confianza y autenticidad. En ella, el artista se presenta como líder, con una voz potente y una identidad marcada en la escena musical.</p>
+    <p>Su mensaje habla de superación, perseverancia y autenticidad frente a los desafíos del día a día.</p>
+    <a href="#" class="link-button">Do you want to see more information?</a>
+  </div>
+
+
+</body>
+</html>

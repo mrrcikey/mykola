@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Legend of Sleepy Hollow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #dcdcdc;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .title {
+      font-size: 1.8em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 0.9em;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    .quote {
+      font-style: italic;
+      margin: 20px auto;
+      max-width: 500px;
+      font-size: 1em;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .quote span {
+      display: block;
+      font-size: 0.9em;
+      margin-top: 10px;
+      color: #999;
+    }
+
+    .illustration {
+      margin: 30px auto;
+      max-width: 500px;
+    }
+
+    .illustration img {
+      width: 100%;
+      filter: brightness(90%) grayscale(100%);
+    }
+
+    .text-image-block {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      text-align: left;
+      color: #ccc;
+    }
+
+    .text-image-block img {
+      width: 200px;
+      height: auto;
+      filter: brightness(90%) grayscale(100%);
+    }
+
+    .text-image-block p {
+      font-size: 1em;
+      line-height: 1.8;
+      max-width: 600px;
+    }
+
+    footer {
+      font-size: 0.7em;
+      color: #666;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .text-image-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+      }
+
+      .text-image-block img {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .text-image-block p {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="title">The Legend of Sleepy Hollow</div>
+  <div class="subtitle">Found among the papers of the late Diedrich Knickerbocker</div>
+
+  <div class="quote">
+    “A pleasing land of drowsy head it was,<br>
+    Of dreams that wave before the half-shut eye;<br>
+    And of gay castles in the clouds that pass,<br>
+    Forever flushing round a summer sky.”<br>
+    <span>— <i>Castle of Indolence</i></span>
+  </div>
+
+  <div class="illustration">
+    <img src="https://i.pinimg.com/736x/f9/00/06/f90006249a41d6824ed8fcb6d86d9013.jpg" alt="forest illustration">
+  </div>
+
+  <div class="text-image-block">
+    <img src="https://i.pinimg.com/736x/aa/ab/cf/aaabcf308e08e3c75d62024e6c7bdaf3.jpg" alt="woman illustration">
+    <p>
+      In the bosom of one of those spacious coves which indent the eastern shore of the Hudson, at that broad expansion of the river denominated by the ancient Dutch navigators the Tappan Zee, and where they always prudently shortened sail and implored the protection of St. Nicholas when they crossed, there lies a small market town or rural port, which by some is called Greensburgh, but which is more generally and properly known by the name of Tarry Town.
+    </p>
+  </div>
+
+  <footer>
+    Original design by <b>badshender on IG</b>
+  </footer>
+</body>
+</html>
